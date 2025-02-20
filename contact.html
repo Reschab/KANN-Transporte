@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt – KANN Transporte</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header class="navbar">
+      <div class="container">
+        <h1 class="logo">KANN Transporte</h1>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Start</a></li>
+            <li><a href="services.html">Leistungen</a></li>
+            <li><a href="contact.html" class="active btn-nav">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Kontaktformular mit zweispaltigem Layout -->
+    <section class="contact-container">
+      <div class="contact-info">
+        <h2>Schreiben Sie uns</h2>
+        <p>
+          Haben Sie Fragen oder benötigen Sie ein individuelles Angebot? Nutzen
+          Sie unser Kontaktformular, wir melden uns umgehend bei Ihnen.
+        </p>
+        <p>📍 Adresse: Musterstraße 123, 20459 Hamburg</p>
+        <p>📞 Telefon: +49 40 123456</p>
+        <p>✉️ E-Mail: kontakt@kann-transporte.de</p>
+      </div>
+
+      <div class="contact-form">
+        <form
+          action="https://formsubmit.co/animefr3akz@gmail.com"
+          method="POST"
+        >
+          <input
+            type="hidden"
+            name="_next"
+            value="https://kann-transporte.de/danke.html"
+          />
+          <label for="name">Ihr Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Max Mustermann"
+            required
+          />
+
+          <label for="email">E-Mail-Adresse</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="beispiel@email.de"
+            required
+          />
+
+          <label for="service">Anfrage zu</label>
+          <select id="service" name="service">
+            <option value="express">Express-Lieferung</option>
+            <option value="international">Internationale Transporte</option>
+            <option value="special">Spezialtransporte</option>
+            <option value="other">Sonstiges</option>
+          </select>
+
+          <label for="message">Ihre Nachricht</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Beschreiben Sie Ihr Anliegen..."
+            rows="5"
+            required
+          ></textarea>
+
+          <button type="submit" class="btn">Nachricht senden</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <p>© 2025 KANN Transporte. Alle Rechte vorbehalten.</p>
+        <ul class="footer-links">
+          <li><a href="index.html">Start</a></li>
+          <li><a href="services.html">Leistungen</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
